@@ -24,5 +24,7 @@ int main() {
     }
 
     node::print(root);
+    node::free(root);
+
     return 0;
 }
